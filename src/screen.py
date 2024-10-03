@@ -114,7 +114,7 @@ class Screen(Clock):
             self.tick(30)
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     menu = Screen("Triki!")
 
     def on_click(event: Event):
